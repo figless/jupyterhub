@@ -44,8 +44,8 @@ RUN REPO=http://cdn-fastly.deb.debian.org && \
 ENV CONDA_DIR /opt/conda
 ENV PATH $CONDA_DIR/bin:$PATH
 ENV SHELL /bin/bash
-ENV NB_USER jovyan
-ENV NB_UID 1000
+ENV NB_USER bbprelman
+ENV NB_UID 900142
 ENV HOME /home/$NB_USER
 ENV LANG C.UTF-8
 
